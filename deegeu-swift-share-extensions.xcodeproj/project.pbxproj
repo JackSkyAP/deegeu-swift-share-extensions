@@ -177,8 +177,9 @@
 				TargetAttributes = {
 					9991F5CC1BDEB3DB005C7BF6 = {
 						CreatedOnToolsVersion = 7.0;
-						DevelopmentTeam = W2LK2X63U8;
+						DevelopmentTeam = VSF36SM6BF;
 						LastSwiftMigration = 0830;
+						ProvisioningStyle = Manual;
 						SystemCapabilities = {
 							com.apple.ApplicationGroups.iOS = {
 								enabled = 1;
@@ -187,8 +188,9 @@
 					};
 					999E5D731BDADB040042AB22 = {
 						CreatedOnToolsVersion = 7.0;
-						DevelopmentTeam = W2LK2X63U8;
+						DevelopmentTeam = VSF36SM6BF;
 						LastSwiftMigration = 0830;
+						ProvisioningStyle = Manual;
 						SystemCapabilities = {
 							com.apple.ApplicationGroups.iOS = {
 								enabled = 1;
@@ -202,6 +204,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -300,15 +303,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = "deegeu-swift-share-extensions-image-share/deegeu-swift-share-extensions-image-share.entitlements";
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "Apple Development";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = VSF36SM6BF;
 				INFOPLIST_FILE = "deegeu-swift-share-extensions-image-share/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.deegeu.deegeu-swift-share-extensions.deegeu-swift-share-extensions-image-share";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.clickap.deegeu-swift-share-extensions.deegeu-swift-share-extensions-image-share";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "share ext 2";
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
@@ -316,15 +322,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = "deegeu-swift-share-extensions-image-share/deegeu-swift-share-extensions-image-share.entitlements";
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "Apple Development";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = VSF36SM6BF;
 				INFOPLIST_FILE = "deegeu-swift-share-extensions-image-share/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.deegeu.deegeu-swift-share-extensions.deegeu-swift-share-extensions-image-share";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.clickap.deegeu-swift-share-extensions.deegeu-swift-share-extensions-image-share";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "share ext 2";
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
 		};
@@ -371,6 +380,7 @@
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -411,6 +421,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
@@ -424,12 +435,15 @@
 				CODE_SIGN_ENTITLEMENTS = "deegeu-swift-share-extensions/deegeu-swift-share-extensions.entitlements";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = VSF36SM6BF;
 				INFOPLIST_FILE = "deegeu-swift-share-extensions/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.deegeu.deegeu-swift-share-extensions";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.clickap.deegeu-swift-share-extensions";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
-				SWIFT_VERSION = 3.0;
+				PROVISIONING_PROFILE_SPECIFIER = "share Dev";
+				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
@@ -441,12 +455,15 @@
 				CODE_SIGN_ENTITLEMENTS = "deegeu-swift-share-extensions/deegeu-swift-share-extensions.entitlements";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = VSF36SM6BF;
 				INFOPLIST_FILE = "deegeu-swift-share-extensions/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.deegeu.deegeu-swift-share-extensions";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.clickap.deegeu-swift-share-extensions";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
-				SWIFT_VERSION = 3.0;
+				PROVISIONING_PROFILE_SPECIFIER = "share Dev";
+				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
 		};
